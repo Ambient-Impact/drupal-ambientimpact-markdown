@@ -46,3 +46,15 @@ In your root `composer.json`, add the following to the `"repositories"` section:
 Once you've completed all of the above, run `composer require
 "drupal/ambientimpact_markdown:1.x-dev@dev"` in the root of your project to have
 Composer install this and its required dependencies for you.
+
+----
+
+# Major breaking changes
+
+The following major version bumps indicate breaking changes:
+
+* 1.x:
+
+  * Has been [`git subtree split`](https://shantanoo-desai.github.io/posts/technology/git_subtree/) from [`Ambient-Impact/drupal-modules`](https://github.com/Ambient-Impact/drupal-modules/tree/8.x) into a standalone package; version has been reset to 1.x.
+
+  * Requires Drupal 9.5 or [Drupal 10](https://www.drupal.org/project/drupal/releases/10.0.0).

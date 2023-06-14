@@ -3,7 +3,7 @@
 namespace Drupal\ambientimpact_markdown\Event\Markdown\CommonMark;
 
 use League\CommonMark\Block\Element\Document;
-use Symfony\Component\EventDispatcher\Event;
+use Symfony\Contracts\EventDispatcher\Event;
 
 /**
  * Base class for CommonMark document events.
