@@ -104,8 +104,8 @@ class CommonMark extends MarkdownCommonMark {
       $createEnvironmentEvent = new CreateEnvironmentEvent($environment);
 
       $this->eventDispatcher->dispatch(
-        AmbientImpactMarkdownEventInterface::COMMONMARK_CREATE_ENVIRONMENT,
-        $createEnvironmentEvent
+        $createEnvironmentEvent,
+        AmbientImpactMarkdownEventInterface::COMMONMARK_CREATE_ENVIRONMENT
       );
     }
 
@@ -125,8 +125,8 @@ class CommonMark extends MarkdownCommonMark {
           );
 
           $this->eventDispatcher->dispatch(
-            AmbientImpactMarkdownEventInterface::COMMONMARK_DOCUMENT_PRE_PARSED,
-            $ourEvent
+            $ourEvent,
+            AmbientImpactMarkdownEventInterface::COMMONMARK_DOCUMENT_PRE_PARSED
           );
 
           $event->replaceMarkdown($ourEvent->getMarkdown());
@@ -149,8 +149,8 @@ class CommonMark extends MarkdownCommonMark {
           $ourEvent = new DocumentParsedEvent($event->getDocument());
 
           $this->eventDispatcher->dispatch(
-            AmbientImpactMarkdownEventInterface::COMMONMARK_DOCUMENT_PARSED,
-            $ourEvent
+            $ourEvent,
+            AmbientImpactMarkdownEventInterface::COMMONMARK_DOCUMENT_PARSED
           );
 
         }

@@ -11,7 +11,7 @@
     }
   ],
   "require": {
-    "drupal/core": "^9.5 || ^10.0",
+    "drupal/core": "^10.0",
     "drupal/markdown": "^3.0@RC",
     "league/commonmark": "^1.5"
   }
