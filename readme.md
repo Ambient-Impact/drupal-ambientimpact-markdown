@@ -12,6 +12,8 @@ work-in-progress. Stable releases may be provided at a later date.
 
 * [Drupal 10](https://www.drupal.org/download)
 
+* PHP 8.1
+
 * [Composer](https://getcomposer.org/)
 
 ----

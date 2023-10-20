@@ -15,7 +15,9 @@
     }
   ],
   "require": {
+    "php": "^8.1",
     "drupal/core": "^10.0",
+    "drupal/hux": "^1.1",
     "drupal/markdown": "^3.0@RC",
     "league/commonmark": "^1.5"
   }

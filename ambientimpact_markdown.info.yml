@@ -3,6 +3,8 @@ type: module
 description: Markdown functionality related to CommonMark.
 package: Ambient.Impact
 core_version_requirement: ^10.0
+php: 8.1
 
 dependencies:
+  - hux:hux
   - markdown:markdown
